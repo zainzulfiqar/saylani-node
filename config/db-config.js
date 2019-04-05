@@ -1,7 +1,6 @@
 let mongoose = require('mongoose');
 
-// let db_url = "mongodb://localhost:27017/books'";
-let db_url = "abc";
+let db_url = "mongodb://localhost:27017/onlineStore";
 
 mongoose.connect(db_url,{useNewUrlParser:true});
 
